@@ -30,7 +30,6 @@ jobs:
       - name: Show output
         run: ls -l
 
-      # Jika ingin hasil iris_preprocessing.csv di-push ke repo otomatis:
       - name: Commit changes
         run: |
           git config --global user.name 'github-actions'
